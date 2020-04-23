@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Sign Up Page</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+
+<form>
+	<div class="container">
+		<div class="signup-box">
+			<div class="title">
+				CREATE ACCOUNT
+			</div>
+			<div>
+				<div class="col">
+					<div class="textboxtop">
+						<input type="text" placeholder="Firstname" name="firstname" required>
+					</div>
+				</div>
+				<div class="col" align="right">
+					<div class="textboxtop">
+						<input type="text" placeholder="Lastname" name="lastname" required>
+					</div>
+				</div>
+			</div>
+
+				<div id="special">
+					<label for="Male">Male</label>
+					<input type="radio" name="Gender Type" id="Male" value="Male">
+					<label for="Male">Female</label>
+					<input type="radio" name="Gender Type" id="Female" value="Female">
+					<label for="Male">Other</label>
+					<input type="radio" name="Gender Type" id="Other" value="Other">
+				</div>
+
+			<div class="textbox">
+				<input type="text" placeholder="Email" name="email" required="@, .com">
+			</div>
+			<div class="textbox">
+				<input type="password" placeholder="Password" name="password" pattern=".{5,10}" required title="Password must be between 5 to 10 characters">
+			</div>
+			<div class="textbox">
+				<input type="password" placeholder="Re-type password" name="password confirmation" required="">
+			</div>
+			<div align="center">
+				<p>I agree to the terms and conditions<input type="checkbox" name="terms" required></p>
+				<a href="main2.html" id="out-btn"><button>SIGN UP</button>.</a>
+			</div>
+		</div>
+	</div>
+</form>
+
+<form>
+	<div class="container">
+		<div class="signup-box2">
+			<div class="title">
+				SIGN IN
+			</div>
+			
+			<div class="textbox">
+				<input type="text" placeholder="Email" name="email" required="@, .com">
+			</div>
+			<div class="textbox">
+				<input type="password" placeholder="Password" name="password" pattern=".{5,10}" required title="Password must be between 5 to 10 characters">
+			</div>
+			
+			<div align="center">
+				<a href="main2.html" id="out-btn">.<button>SIGN IN</button></a>
+					
+			</div>
+		</div>
+	</div>
+</form>
+</body>
+</html>
